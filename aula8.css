@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#topo{
+	margin: auto;
+	padding-top: 3%;
+	background: #dedede;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+#titulo{
+	font-size: 2.0em;
+	font-weight: bold;
+}	
+	
+#conteudo{
+	margin: auto;
+	background: #efefef;
+	width: 80%;
+	height: 890px;
+}
+	
+.divImagem{
+	margin: auto;
+	background: #fff;
+	width: 90%;
+	height: 350px;
+}
+
+#d2,#d3,#d4{
+	display: none;
+}	
+
+#caixa{
+	position: relative;
+	/*background: #aed;*/
+	margin: -4% 40.5%;
+	width: 150px;
+	height: 30px;
+}	
+
+.bolinha{
+	float: left;
+	background: red;
+	margin: auto 1%;
+	width: 34px;
+	height: 30px;
+	border-radius: 20px;
+}	
